@@ -56,6 +56,11 @@ The shaded region indicates upper–lower confidence ranges for prediction.
 
 ---
 
+### 📊 Power BI Dashboard
+![Dashboard](dashboard.png)
+
+---
+
 ## 📁 Repository Structure
 
 Task_01_Sales_Forecasting/
@@ -89,10 +94,6 @@ From this task, I learned:
 | Dashboard | Build interactive BI report |
 | Model comparison | Add ARIMA / SARIMA / LSTM vs Prophet |
 | Deployment | Host model via Flask / FastAPI and expose prediction API |
-
----
-### 📊 Power BI Dashboard
-![Dashboard](dashboard.png)
 ---
 
 ## 🙋‍♂️ Author
