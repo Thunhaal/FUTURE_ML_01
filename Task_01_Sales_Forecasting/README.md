@@ -7,7 +7,7 @@ The objective is to perform **time-series sales forecasting** using Instax camer
 
 ## 📌 Project Overview
 
-Organizations rely heavily on **data-driven forecasting** for inventory planning, supply-chain optimization, and profitability.  
+Organizations rely on **data-driven forecasting** for inventory planning, supply-chain optimization, and profitability.  
 In this task, we:
 
 - Processed Instax camera transaction dataset
@@ -22,11 +22,11 @@ In this task, we:
 
 | Step | Description |
 |------|-------------|
-| 1️⃣ Data Import & Cleaning | Loaded `.csv` files and handled missing data |
+| 1️⃣ Data Import & Cleaning | Loaded `.csv` data and handled missing values |
 | 2️⃣ Feature Engineering | Converted invoice-level data → daily grouped totals |
-| 3️⃣ Visualization | Trend & seasonal plots using Matplotlib |
+| 3️⃣ Visualization | Trend & seasonality plots using Matplotlib |
 | 4️⃣ Forecasting Model | Applied Prophet on historical daily sales |
-| 5️⃣ Output | Predicted next 30 days & exported forecast |
+| 5️⃣ Output | Predicted next 30 days and exported results |
 
 ---
 
@@ -35,27 +35,65 @@ In this task, we:
 | Category | Tools |
 |----------|-------|
 | Programming | Python |
-| Libraries | Pandas, NumPy, Matplotlib, Prophet, Scikit-learn |
-| Dashboard (Optional) | Power BI / Tableau |
-| Notebook Environment | Google Colab |
+| ML Libraries | Pandas, NumPy, Matplotlib, Prophet |
+| IDE / Notebook | Google Colab |
+| Dashboard (optional) | Power BI / Tableau |
 
 ---
 
 ## 📊 Output Screenshots
 
 ### 📈 Daily Sales Trend
-![Daily Sales](Task_01_Sales_Forecasting/Daily_Sales.png)
-
-Shows daily-level fluctuations and periodic demand peaks (especially around November–January).
+![Daily Sales](Daily_Sales.png)
+This graph shows the daily sales fluctuations and seasonal demand peaks over time, especially around November–January.
 
 ---
 
 ### 🔮 30-Day Sales Forecast
-![30-Day Forecast](Task_01_Sales_Forecasting/30_Day_Forecast.png)
-
-Prophet forecast output with confidence range shading — clearly showing next-month seasonal demand.
+![30-Day Forecast](30_Day_Forecast.png)
+Prophet forecast output showing estimated demand for the next 30 days.  
+The shaded region indicates upper–lower confidence ranges for prediction.
 
 ---
 
 ## 📁 Repository Structure
 
+Task_01_Sales_Forecasting/
+│── Task_01_Sales_Forecasting.ipynb      # Notebook with ML pipeline
+│── instax_sales_transaction_data.csv    # Raw dataset
+│── sales_forecast_30days.csv            # Generated forecast output
+│── Daily_Sales.png                      # Trend visualization
+│── 30_Day_Forecast.png                  # Forecast visualization
+│── README.md
+
+
+---
+
+## 📝 Conclusions & Learnings
+
+From this task, I learned:
+
+- Complete workflow of a **time-series forecasting project**
+- Cleaning + aggregating raw business data is crucial before ML
+- Visual patterns reveal **seasonality & business cycles**
+- Forecasting assists in **inventory, marketing, and sales planning**
+
+---
+
+## 🚀 Future Enhancements
+
+| Improvement | Idea |
+|-------------|------|
+| Dashboard | Build interactive BI report |
+| Model comparison | Add ARIMA / SARIMA / LSTM vs Prophet |
+| Deployment | Host model via Flask / FastAPI and expose prediction API |
+
+---
+
+## 🙋‍♂️ Author
+
+**S. T. Thunhaal**  
+Machine Learning Intern – Future Interns  
+LinkedIn: [https://www.linkedin.com/in/thunhaal-st-041001319/](https://www.linkedin.com/in/thunhaal-st-041001319/)
+
+---
