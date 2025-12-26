@@ -68,7 +68,7 @@ Task_01_Sales_Forecasting/
 │── instax_sales_transaction_data.csv    # Raw dataset
 │── sales_forecast_30days.csv            # Generated forecast output
 │── Daily_Sales.png                      # Trend visualization
-│── Task_01_Sales_Forecasting.pbix   ← upload this
+│── Task_01_Sales_Forecasting.pbix  
 │── dashboard.png
 │── 30_Day_Forecast.png                  # Forecast visualization
 │── README.md
