@@ -60,6 +60,11 @@ The shaded region indicates upper–lower confidence ranges for prediction.
 ![Dashboard](dashboard.png)
 
 ---
+### Power BI Dashboard (Download File)
+To interact with the dashboard locally, download and open it in Power BI Desktop:
+[📥 Download PBIX](Task_01_Sales_Forecasting.pbix)
+
+---
 
 ## 📁 Repository Structure
 
