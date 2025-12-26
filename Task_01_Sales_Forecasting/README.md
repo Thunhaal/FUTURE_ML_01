@@ -92,7 +92,7 @@ From this task, I learned:
 
 ---
 ### 📊 Power BI Dashboard
-![Dashboard](Task_01_Sales_Forecasting/dashboard.png)
+![Dashboard](dashboard.png)
 ---
 
 ## 🙋‍♂️ Author
