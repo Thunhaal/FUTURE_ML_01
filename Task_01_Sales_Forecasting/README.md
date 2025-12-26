@@ -12,3 +12,11 @@ Build a dashboard that predicts future sales trends using historical dataset.
 
 ## Tools Recommended
 Python, Pandas, Scikit-learn, Matplotlib, Prophet, Power BI (optional)
+
+## 📊 Output Screenshots
+
+### Daily Sales Trend
+![Daily Sales](./Task_01_Sales_Forecasting/Daily_Sales.png)
+
+### 30-Day Sales Forecast
+![30 Day Forecast](./Task_01_Sales_Forecasting/30_Day_Forecast.png)
