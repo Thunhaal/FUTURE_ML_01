@@ -1,4 +1,14 @@
 # Task 01 – Sales Forecasting (Machine Learning Internship – Future Interns)
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/> 
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python"/> 
+  <img src="https://img.shields.io/badge/Machine%20Learning-Time%20Series-orange?style=for-the-badge&logo=google"/> 
+  <img src="https://img.shields.io/badge/Forecasting-Prophet-green?style=for-the-badge&logo=python"/> 
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi"/> 
+  <a href="https://github.com/Thunhaal/FUTURE_ML_01/tree/main/Task_01_Sales_Forecasting">
+    <img src="https://img.shields.io/badge/GitHub-View%20Project-black?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
 This repository contains Task-01 of the Machine Learning Internship at **Future Interns**.  
 The objective is to perform **time-series sales forecasting** using Instax camera sales transactions, visualize historical sales trends, and predict future demand using machine-learning models.
